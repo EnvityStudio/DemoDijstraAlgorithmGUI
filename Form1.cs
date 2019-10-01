@@ -33,9 +33,9 @@ namespace MyDijkstra
 			p.CustomEndCap = bigArrow;
 
 			// pen havent arrow
-			Pen pen = new Pen(Color.Blue, 2);
+			Pen pen = new Pen(Color.Black, 2);
 
-			Pen penStart = new Pen(Color.Blue, 4);
+			Pen penStart = new Pen(Color.Black, 4);
 			Pen penEnd = new Pen(Color.Yellow, 4);
 			// standard not startpoint and endpoint
 			SolidBrush br = new SolidBrush(Color.Red);
